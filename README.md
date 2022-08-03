@@ -96,4 +96,3 @@ Nos muestra un historial de los commit realizados.
 Con este comando podremos 'viajar en el tiempo' y ver como estaba el código en cierto momento.
 
 - No es para hacer cambios, sólo para revisar!
-  .
