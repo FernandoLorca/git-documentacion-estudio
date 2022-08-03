@@ -113,3 +113,17 @@ Para crear una rama se realiza con _git branch nombre-de-la-rama_. Para viajar a
 - Para mostrar visualmente las ramas podemos usar _git log --oneline --graph_
 - Al realizar un push (para subir a repo online), git me notificará que no estamos en la rama main y me recomienda usar el sgte comando _git push --set-upstream origin nombre-de-rama_
 - Para poder viajar a main con chekout debemos primeramente realizar un commit guardando los cambios realizados en la rama.
+
+### git merge seleccionar-rama
+
+Este comando lo usaremos para poder actualizar el main o la rama en la que estemos posicionados (?) con los cambios que se estuvieron realizando en dicha rama seleccionada.
+
+- La notificación de 'Fast-forward' Es el 'mejor mensaje que nos puede tirar git' xd
+
+- Caso hipotetico: Si yo creo una nueva rama, por ej: 02-rama, en esa rama creo un archivo llamado service.html, todo bien. Pero entro al index.html, creo un h1 con un titulo 'Este es un titulo' y después yo (o otra persona, caso mas real) crea nuevamente un h1 o otro cambio en el mismo archivo index.html EN LA RAMA MAIN, al momento de realizar merge se generará un conflicto. <br>
+  Visual studio code reconoce el conflicto y me muestra las lineas específicas en donde existe el conflito. ¿Que hacer?: Borrar directamente las lineas que no queremos que vallan específicamente, usar la interfaz que ofrece vscode ('Accept Current Change', 'Accept incoming Change', Accept Both Changes' y 'Compare Changes') <br>
+  Vscode seguirá indicandome que el archivo tiene conflicto y SIEMPRE se debe realizar un commit indicando la solución al conflicto.
+
+### git branch -d nombre-de-la-rama
+
+Comando para eliminar ramas
