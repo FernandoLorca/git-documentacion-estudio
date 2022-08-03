@@ -138,3 +138,9 @@ Sirven para hacer versiones de nuestro proyecto. Se realizan en rama main.
 - Borrar tags: _git tag -d nombre-del-tag_
 - Hacer una versión en uin commit anterior: _git tag -a nombre-del-tag (Id del commit) -m 'version alpha'_
 - Mostrar información del tag _git show nombre-del-tag_
+
+## git pull
+
+Compara lo que tenemos en repo online y lo trae a repo local. Cuando realizamos cambios directamente en github pero no de forma local, es esencial realizar un pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
+
+- No se recomienda realizar cambios en github.
