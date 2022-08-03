@@ -105,3 +105,9 @@ Este comando nos traerá los commit que estaban antes de dejar la embarrada usan
 ### git revert (Id commit a eliminar)
 
 Elimina los cambios realizados y hace otro commit informando que se eliminaron los cambios. De igual manera queda el commit anterior como respaldo.
+
+## Ramas o branch. git branch
+
+Para crear una rama se realiza con _git branch nombre-de-la-rama_. Para viajar a a lguna rama usamos _git checkout nombre-de-la-rama_.
+
+- Para mostrar visualmente las ramas podemos usar _git log --oneline --graph_
