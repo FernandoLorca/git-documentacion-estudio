@@ -127,3 +127,14 @@ Este comando lo usaremos para poder actualizar el main o la rama en la que estem
 ### git branch -d nombre-de-la-rama
 
 Comando para eliminar ramas
+
+## git tag nombre-de-la-version -m '0.0.1'
+
+Sirven para hacer versiones de nuestro proyecto. Se realizan en rama main.
+
+- Los tag no se suben al repo online (github) y es necesario agregar bandera _--tags_: _git push --tags_
+- Ej: _git tag versionAlpha -m '0.0.1'_
+- Listar tag: _git tag_
+- Borrar tags: _git tag -d nombre-del-tag_
+- Hacer una versión en uin commit anterior: _git tag -a nombre-del-tag (Id del commit) -m 'version alpha'_
+- Mostrar información del tag _git show nombre-del-tag_
