@@ -111,3 +111,4 @@ Elimina los cambios realizados y hace otro commit informando que se eliminaron l
 Para crear una rama se realiza con _git branch nombre-de-la-rama_. Para viajar a a lguna rama usamos _git checkout nombre-de-la-rama_.
 
 - Para mostrar visualmente las ramas podemos usar _git log --oneline --graph_
+- Al realizar un push (para subir a repo online), git me notificará que no estamos en la rama main y me recomienda usar el sgte comando _git push --set-upstream origin nombre-de-rama_
