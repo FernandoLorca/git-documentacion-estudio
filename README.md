@@ -99,4 +99,6 @@ Con este comando podremos 'viajar en el tiempo' y ver como estaba el código en 
 
 Durante el curso normal del desarrollo, HEAD apunta por lo general a la rama main u otra rama local _(HEAD -> master)_, pero, cuando extraes una confirmación anterior, HEAD ya no apunta a una rama, sino que apunta directamente a una confirmación. Este estado recibe el nombre de "HEAD desasociado" (detached HEAD)
 
-- Para volver a la rama principal
+- Para volver a la rama principal es posible volver con _git checkout (id commit main)_ o con _git checkout main_
+
+En el caso de que visitemos un historial de un commit con checkout y comencemos a realizar cambios a partir de ese momento en el tiempo, nuestro nuevo commit quedará huerfano
