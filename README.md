@@ -1,21 +1,3 @@
-## Título
-
-### Subtítulo
-
-Este es un ejemplo de texto que da entrada a una lista genérica de elementos:
-
-- Elemento 1
-- Elemento 2
-- Elemento 3
-  Este es un ejemplo de texto que da entrada a una lista numerada:
-
-1. Elemento 1
-2. Elemento 2
-3. Elemento 3
-   Al texto en Markdown puedes añadirle formato como **negrita** o _cursiva_ de una manera muy sencilla.
-
----
-
 # GIT
 
 Es un software de control de versiones, su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. Existe la posibilidad de trabajar de forma remota y una opción es GitHub
@@ -102,3 +84,7 @@ Durante el curso normal del desarrollo, HEAD apunta por lo general a la rama mai
 - Para volver a la rama principal es posible volver con _git checkout (id commit main)_ o con _git checkout main_
 
 En el caso de que visitemos un historial de un commit con checkout y comencemos a realizar cambios a partir de ese momento en el tiempo, nuestro nuevo commit quedará huerfano
+
+## git reset
+
+Vamos a conocer como podemos movernos entre los diferentes commit que tengamos registrados. _Esto es útil si aún no has subido tu commit a GitHub o a otro repositorio remoto._ Si bien esto
