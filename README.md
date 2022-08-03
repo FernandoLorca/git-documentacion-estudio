@@ -85,6 +85,23 @@ Durante el curso normal del desarrollo, HEAD apunta por lo general a la rama mai
 
 En el caso de que visitemos un historial de un commit con checkout y comencemos a realizar cambios a partir de ese momento en el tiempo, nuestro nuevo commit quedará huerfano
 
-## git reset
+## git reset (Id commit)
 
-Vamos a conocer como podemos movernos entre los diferentes commit que tengamos registrados. _Esto es útil si aún no has subido tu commit a GitHub o a otro repositorio remoto._ Si bien esto
+Vamos a conocer como podemos movernos entre los diferentes commit que tengamos registrados. _Esto es útil si aún no has subido tu commit a GitHub o a otro repositorio remoto._
+Al realizar este comando viajaremos en el tiempo a la id señalada pero todos los commit que estaban de ese momento elegido en adelante se eliminan. Los archivos siguen estando agí pero git no les sigue dando seguimiento.
+Si realizamos un cambio después de haber usado git reset los commit del futuro terminarán de desaparecer permanentemente, pero si realizamos el reset, no hacemos commit y usamos el mismo git reset con una id de un commit del futuro volveremos a ese commit sin problemas.
+
+- Para poder realizar git reset de manera agresiva usaremos _git reset --hard (Id commit)_ (desaparecen archivos también).
+- Si nos equivocamos y queremos volver a un commit futuro después de haber echo un hard reset podemos usar el comando _git reflog_ y nos aparecerá un historial de todo los commit realizados en el pasado con sus IDs, por lo que podremos volver a esos momentos usando el _git reset --hard (Id commit)_
+
+### Cuidado con el reset
+
+Ambos comandos _git revert_ y _git reset_, deshacen commits anteriores. Pero si ya has subido tu commit a un repositorio remoto, se recomienda que no uses git reset, ya que reescribe el historial de commits. Esto puede hacer que trabajar en un repositorio con otros desarrolladores y mantener un historial consistente de commits sea muy difícil.
+
+### git pull origin (nombre de rama (main))
+
+Este comando nos traerá los commit que estaban antes de dejar la embarrada usando reset y creando commit. No es la mejor solución.
+
+### git revert (Id commit a eliminar)
+
+Elimina los cambios realizados y hace otro commit informando que se eliminaron los cambios. De igual manera queda el commit anterior como respaldo.
