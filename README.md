@@ -144,3 +144,5 @@ Sirven para hacer versiones de nuestro proyecto. Se realizan en rama main.
 Compara lo que tenemos en repo online y lo trae a repo local. Cuando realizamos cambios directamente en github pero no de forma local, es esencial realizar un pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
 
 - No se recomienda realizar cambios en github.
+
+Esto es una prueba.
