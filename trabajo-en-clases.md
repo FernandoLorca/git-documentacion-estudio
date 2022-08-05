@@ -15,3 +15,9 @@ Para mover carpetas
 ## git update-git-for-windows:
 
 Actualiza git en win
+
+## Giothup pages > settings > pages (menu lateral):
+
+Se elige rama, root y se guarda.
+
+- Se demora algo en subirse el sitio para ver.
