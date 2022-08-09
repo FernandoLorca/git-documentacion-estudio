@@ -21,3 +21,15 @@ Actualiza git en win
 Se elige rama, root y se guarda.
 
 - Se demora algo en subirse el sitio para ver.
+
+## rm remueve archivo
+
+rm archivo.txt
+
+- Cuidado con estos comandos
+
+## rm -r remueve directorio
+
+rm carpeta
+
+- Cuidado con estos comandos
