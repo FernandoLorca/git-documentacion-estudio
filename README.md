@@ -52,7 +52,7 @@ Para agregar un nombre de usuario a la cuenta global de git
 
 - No colocar como nombre de usuario el correo de su cuenta de Github, podría traer problemas a futuro.
 
-### git --global user.email "florcapinto@gmail.com"
+### git config --global user.email "florcapinto@gmail.com"
 
 Agregar correo de cuenta a utilizar. (Recomendable usar cuenta asociada a Github)
 
