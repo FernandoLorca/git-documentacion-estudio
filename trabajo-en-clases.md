@@ -17,3 +17,20 @@ También se puede viajar a rama.
 
 Viaja en el tiempo entre los commit.
 Por ej: Si algo no me gustó uso el git revert, vuelvo a un commit en específico, se eliminan los cambios y se crea un nuevo commit avisando el cambio. Es mejor trabajar entre ramas y no usar este comando.
+
+## Interfaces gráficas para git:
+
+- git kraken (de pago)
+- smartgit (gratis)
+
+## Subir rama a repo remoto
+
+Entrar a rama y hacer push desde rama.
+
+## Git pull
+
+Se realiza por cada rama
+
+## Se puede usar el enlace principal de github pages como sitio 'principal'.
+
+Seguir instrucciones de github.
